@@ -3,7 +3,6 @@ import React, {  useEffect, useState } from "react";
 import data from '../data'
 import ReladtedTours from "./RelatedTours";
 import Zoom from 'react-reveal/Zoom'
-import Navbar from "./Navbar";
 import Navbar_2 from "./Navbar_2";
 import Navbar3 from "./Navbar3";
 

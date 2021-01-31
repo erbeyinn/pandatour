@@ -4,7 +4,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import data from '../data'
 import {useTranslation} from 'react-i18next'
-import Navbar3 from './Navbar3';
+
 
 function Navbar(props) {
     

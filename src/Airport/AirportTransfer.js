@@ -6,7 +6,6 @@ import styled from 'styled-components';
 import {IconContext} from 'react-icons';
 import {FiPlus, FiMinus} from 'react-icons/fi'
 import data from '../data';
-import Navbar from '../components/Navbar';
 import Navbar_2 from '../components/Navbar_2';
 import Fade from 'react-reveal/Fade'
 import Navbar3 from '../components/Navbar3';

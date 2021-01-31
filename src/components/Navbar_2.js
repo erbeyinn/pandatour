@@ -7,7 +7,6 @@ import PrivateToursMenu from '../navbarMenus/PrivateToursMenu'
 import ExcurcionsMenu from '../navbarMenus/ExcurcionsMenu'
 
 import AirportTransferTour from '../navbarMenus/AirportTransferTour'
-import RentHouses from './RentHouses'
 import RentHousesMenu from '../navbarMenus/RentHousesMenu'
 function Navbar_2() {
 

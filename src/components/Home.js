@@ -9,7 +9,6 @@ import Slider2 from './Slider'
 import {useTranslation} from 'react-i18next'
 import RecommendedTours from '../CategoryTours.js/RecommendedTours'
 import PrivateTours from '../CategoryTours.js/PrivateTours'
-import RentHouses from './RentHouses'
 import Navbar3 from './Navbar3'
 
 
