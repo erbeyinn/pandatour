@@ -1,0 +1,28 @@
+{
+    
+    "Body": {
+        "1": "Kart başlığını geliştirmek ve kartın büyük kısmını oluşturmak için bazı hızlı örnek metinler"
+    },
+    "Home":{
+        "1":"Menü"
+    },
+    "Tours":{
+        "1":"Turlar"
+    },
+    "Kalamar":{
+        "1":"İletişim"
+    },
+    "Airport":{
+        "1" : "Havaalanı"
+    },
+    "MoreInfo":{
+        "1" : "Fazlası"
+    },
+    "Price":{
+        "1" : "Fiyat"
+    },
+    "Featured":{
+        "1": "İlgili Turlar"
+    }
+
+}

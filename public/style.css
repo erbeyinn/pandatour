@@ -1,0 +1,61 @@
+.box1{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./images/1.jpg);
+ background-position: center;
+ background-size: cover;
+ overflow-x:hidden;
+ position: relative;
+height: 200px;
+width: 50%;
+color: white;
+}
+.box2{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./images/1.jpg);
+ background-position: center;
+ background-size: cover;
+ overflow-x:hidden;
+ position: relative;
+height: 200px;
+width: 25%;
+color: white;
+}
+.box3{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./images/1.jpg);
+ background-position: center;
+ background-size: cover;
+ overflow-x:hidden;
+ position: relative;
+height: 200px;
+width: 25%;
+color: white;
+}
+.box1 div {
+    margin-top: 80px; 
+   margin-left: 50px
+}
+.box1 div span{
+    z-index: 2;
+
+
+   
+}
+.grid2 {
+  display: grid;
+  grid-template-areas: repeat(4, 1fr);
+  grid-row-gap: 10px;
+}
+.border1{
+    border:1px solid #ccc;
+}
+.border1:hover{
+    border-bottom:1px solid orange ;
+    border-top:1px solid orange ;
+    transition: 0.5s;
+}
+.border2{
+    border:1px solid #ccc;
+}
+.border2:hover{
+    border-bottom:1px solid orange ;
+    border-top:1px solid orange ;
+    transition: 0.5s;
+}

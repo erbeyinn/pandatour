@@ -1,0 +1,26 @@
+{
+    "Body": {
+        "1": "Some quick example text to build on the card title and make up the bulk of the card"
+    },
+    "Home": {
+        "1": "Home"
+    },
+    "Tours": {
+        "1": "Tours"
+    },
+    "Kalamar": {
+        "1": "Contact Us"
+    },
+    "Airport": {
+        "1": "Airport"
+    },
+    "MoreInfo": {
+        "1": "More Info"
+    },
+    "Price": {
+        "1": "Price"
+    },
+    "Featured": {
+        "1": "Featured Trips"
+    }
+}
