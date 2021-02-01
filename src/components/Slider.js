@@ -11,22 +11,20 @@ import {useTranslation} from 'react-i18next'
    
       
 <Slider >
-  {data.products.map((product, index) =>
-   <div key={index} >
+  {data.tours.map((tour, id) =>
+   <div key={id} >
     
       <div className="slider "> 
        
          <div className=" text-center align-middle" style={{marginTop:'130px'}}>
-          <h3 className="font-weight-bold ">{product.content}</h3>
-           <Link to={'/product/' + product._id}> <button className="kalamar ">{t('MoreInfo.1')}</button>  </Link>
+          <h3>{tour.title}</h3>
+           <Link to={tour.href}> <button className="kalamar ">{t('MoreInfo.1')}</button>  </Link>
            </div>
-        
     
     
        
         <div className="z-index">
-           <img src={product.image[0]}  alt="product"/>
-           
+           <img src={tour.image} alt="tour"/>
         </div>
      
       

@@ -2,8 +2,7 @@
 import React, { useEffect, useState } from "react";
 import data from "../data";
 import Zoom from "react-reveal/Zoom";
-import Navbar_2 from "./Navbar_2";
-import Navbar3 from "./Navbar3";
+
 
 function ProductDetail(props) {
   const product = data.products.find((x) => x._id === props.match.params.id);
@@ -15,16 +14,7 @@ function ProductDetail(props) {
 
   return (
     <>
-      <div className=" black">
-        <div>
-          {" "}
-          <Navbar3 />
-        </div>
-        <div>
-          {" "}
-          <Navbar_2 />
-        </div>
-      </div>
+     
 
       {loading === false ? (
         <div>

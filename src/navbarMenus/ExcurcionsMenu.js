@@ -9,7 +9,7 @@ const ExcurcionsMenu = () => {
              <div className="dropdown">
                 
                 
-                <a className="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a className="btn  dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Excurcions
                 </a>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -21,7 +21,7 @@ const ExcurcionsMenu = () => {
                     
                     {
                         data.privs.map( priv =>
-                            <Link to={'/priv/' + priv._id} className="dropdown-item " type="button">{priv.title}</Link>
+                            <Link to={'/priv/' + priv._id} className="dropdown-item " >{priv.title}</Link>
                             )
                     }
                 </div>

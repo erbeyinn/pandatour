@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from'./Navbar'
 import Modal from 'react-modal'
 import Zoom from 'react-reveal/Zoom'
  function Introduction() {
@@ -18,7 +17,6 @@ import Zoom from 'react-reveal/Zoom'
 
     return (
         <div className="pandatour-app">
-            <Navbar/>
             <div className="banner-title">
             <h1>Food <span> doesn't have <br/> a cook.</span> It is cook</h1>
             <button className="kalamar">Explore </button>

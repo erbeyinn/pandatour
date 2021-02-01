@@ -8,7 +8,7 @@ const PrivateToursMenu = () => {
         <div>
             <div className="dropdown">
                 
-                <a className="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a className="btn  dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Private Tours
                 </a>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenu2">

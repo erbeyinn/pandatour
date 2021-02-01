@@ -8,13 +8,13 @@ const RecommendedToursMenu = () => {
         <div>
             <div className="dropdown">
                 
-                <a className="btn  dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a className="btn  dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Recommended Tours
                 </a>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                     {
                         data.recommends.map( (recommend,id) =>
-                            <Link key={id} to={'/recommend/' + recommend._id} className="dropdown-item" type="button">{recommend.title}</Link>
+                            <Link key={id} to={'/recommend/' + recommend._id} className="dropdown-item">{recommend.title}</Link>
                             )
                     }
                     

@@ -1,10 +1,8 @@
 /* eslint-disable react/jsx-pascal-case */
 import React, {  useEffect, useState } from "react";
 import data from '../data'
-import ReladtedTours from "./RelatedTours";
 import Zoom from 'react-reveal/Zoom'
-import Navbar_2 from "./Navbar_2";
-import Navbar3 from "./Navbar3";
+
 
 
 
@@ -24,10 +22,6 @@ const rent = data.rents.find(x => x._id === props.match.params.id);
   return (
 
     <>
-   <div className=" ">
-     <div> <Navbar3 /></div>
-     <div> <Navbar_2 /></div>
-  </div>
 
     {
       loading === false ? (
@@ -132,7 +126,6 @@ const rent = data.rents.find(x => x._id === props.match.params.id);
             
        </div>
        
-      <ReladtedTours setSelectedImg={setSelectedImg} selectedImg={selectedImg} product={rent} />
     </div>
 
         </div>

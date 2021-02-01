@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react'
 import data from '../data'
 import {Link} from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom'
-import Navbar from './Navbar'
-import Navbar_2 from './Navbar_2'
 import {useTranslation} from 'react-i18next'
  function Tours() {
 
@@ -18,8 +16,7 @@ import {useTranslation} from 'react-i18next'
     
     return (
         <>
-           <div > <Navbar /></div>
-           <div > <Navbar_2 /></div>
+          
         {
             loading === false ? (
               <Zoom>
