@@ -25,7 +25,10 @@ useEffect(() => {
     
     return (
       <>
-      <Navbar3/>
+      <div>
+        <Navbar3/>
+      </div>
+      
        <Navbar_2/>
   
   <Slider2/>

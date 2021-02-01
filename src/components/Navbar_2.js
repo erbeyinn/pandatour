@@ -16,7 +16,7 @@ function Navbar_2() {
    const {t, i18n} = useTranslation()
 
     return (
-        <div className="container-fluid" style={{background:'orange'}}>
+        <div className="container-fluid m-0 p-0" style={{background:'orange'}}>
           
                   <nav className="navbar navbar-expand-lg navbar-light ">
                     <Link className="navbar-brand" to="/">{t('Home.1')} </Link>

@@ -14,7 +14,7 @@ const PrivateToursMenu = () => {
                 <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                     {
                         data.privs.map( priv =>
-                            <Link to={'/priv/' + priv._id} className="dropdown-item" type="button">{priv.title}</Link>
+                            <Link to={'/priv/' + priv._id} className="dropdown-item">{priv.title}</Link>
                             )
                     }
                     

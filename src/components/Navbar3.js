@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import data from '../data'
 const Navbar3 = () => {
     return (
-        <div>
+        <div className="p-0 m-0 res">
             <nav className="navbar navbar-expand-lg navbar-light ">
                   
                  

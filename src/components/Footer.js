@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
    <nav className=" container" >
                     <div className="d-flex justify-content-between">
 <ul className="navbar-nav mr-auto">
-                            <div className=" font-weight-bold">
+                            <div className=" font-weight-bold text-wrap">
                              COPYRIGHT © PANDATOUR 2020 <br/><span style={{color:'brown'}}>info@pandatour.com</span> <span style={{color:'#8e8e8a;'}}>– 907.479.8203 – Box 80562, Fairbanks, Alaska 99708</span> 
                             </div>
                         </ul>

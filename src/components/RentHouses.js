@@ -52,7 +52,7 @@ const rent = data.rents.find(x => x._id === props.match.params.id);
                                         
                                         <img
                                           className=""
-                                          style={{ border:selectedImg === rent? "1px solid #000" : "" }}
+                                          style={{ border:selectedImg === rent? "1px solid #000" : "",width:'90px' }}
                                           key={index}
                                           src={rent}
                                           alt="holiday"
