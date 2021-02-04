@@ -41,10 +41,9 @@ const priv = data.privs.find(x =>x._id === props.match.params.id)
                   <div className="imgContainer d-flex  flex-wrap justify-content-center">
                     {priv.image.map((priv, index) => (
                       <img
-                        className=""
+                        className="imgDetail"
                         style={{
-                          border: selectedImg === priv ? "1px solid #ccc" : "",
-                          width: "83px",
+                          border: selectedImg === priv ? "1px solid #ccc" : ""
                         }}
                         key={index}
                         src={priv}

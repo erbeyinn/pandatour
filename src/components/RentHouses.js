@@ -45,7 +45,7 @@ const rent = data.rents.find(x => x._id === props.match.params.id);
                                         
                                         
                                         <img
-                                          className=""
+                                          className="imgDetail"
                                           style={{ border:selectedImg === rent? "1px solid #000" : "",width:'90px' }}
                                           key={index}
                                           src={rent}
@@ -106,7 +106,7 @@ const rent = data.rents.find(x => x._id === props.match.params.id);
 
       <div>
               <div className="row ">
-                    <div className="row mt-5">
+                    <div className="m-3 mt-5">
                         <div className="">
                           <h3 className="text-center after">About Tour</h3>
                           <p>{rent.about}</p>

@@ -7,7 +7,7 @@ const AirportTransferTour = () => {
            <div>
                 <div className="dropdown">
                 
-                <Link to="/transfer" className="btn "  id="dropdownMenu2" >
+                <Link to="/transfer" className="btn "   >
                     Airport Transfer
                 </Link>
                 

@@ -14,11 +14,12 @@ function ProductDetail(props) {
 
   return (
     <>
-     
-
       {loading === false ? (
         <div>
-          <div className="container text-break" style={{ marginLeft: "0 !important" }}>
+          <div
+            className="container text-break"
+            style={{ marginLeft: "0 !important" }}
+          >
             <div className="row d-flex flex-column">
               <div className="col-12">
                 <h1 className="text-center font-weight-bold after">
@@ -36,11 +37,10 @@ function ProductDetail(props) {
                   <div className="imgContainer d-flex  flex-wrap justify-content-center">
                     {product.image.map((product, index) => (
                       <img
-                        className="ml-2"
+                        className="ml-2 imgDetail"
                         style={{
                           border:
                             selectedImg === product ? "1px solid #000" : "",
-                          width: "75px",
                         }}
                         key={index}
                         src={product}

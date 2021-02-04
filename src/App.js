@@ -12,6 +12,7 @@ import RecommendedTours2 from './CategoryTours/RecommendedTours2';
 import ProductTours2 from './CategoryTours/ProductTours2';
 import Navbar3 from './components/Navbar3';
 import Navbar2 from './components/Navbar2';
+import Contact from './components/Contact';
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <Route path="/priv" component={PrivateTours2}/>
       <Route path="/recommend" component={RecommendedTours2}/>
       <Route path="/product" component={ProductTours2}/>
+      <Route path="/contact" component={Contact}/>
       <Route path="/" exact={true} component={Home}/>
      <Footer/>
 

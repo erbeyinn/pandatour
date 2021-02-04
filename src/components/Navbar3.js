@@ -32,7 +32,7 @@ const Navbar3 = () => {
                     </ul>
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item"> 
-                            <Link><button className="kalamar">Contact Us</button></Link>
+                            <Link to="/contact"><button className="kalamar">Contact Us</button></Link>
                         </li>
                     </ul>
                 </div>

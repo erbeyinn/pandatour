@@ -25,8 +25,6 @@ const recommend = data.recommends.find(x =>x._id === props.match.params.id)
 
   return (
     <>
-    
-
       {loading === false ? (
         <div>
           <div className="">
@@ -49,11 +47,10 @@ const recommend = data.recommends.find(x =>x._id === props.match.params.id)
                     <div className="imgContainer d-flex  flex-wrap justify-content-center">
                       {recommend.image.map((recommend, index) => (
                         <img
-                          className=""
+                          className="imgDetail"
                           style={{
                             border:
                               selectedImg === recommend ? "1px solid #000" : "",
-                            width: "80px",
                           }}
                           key={index}
                           src={recommend}
