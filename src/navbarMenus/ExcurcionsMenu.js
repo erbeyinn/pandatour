@@ -14,16 +14,12 @@ const ExcurcionsMenu = () => {
                 </a>
                 <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
                     {
-                        data.recommends.map( recommend =>
-                            <Link to={'/recommend/' + recommend._id} className="dropdown-item" >{recommend.title}</Link>
+                        data.products.map( product =>
+                            <Link to={'/product/' + product._id} className="dropdown-item" >{product.title}</Link>
                             )
                     }
                     
-                    {
-                        data.privs.map( priv =>
-                            <Link to={'/priv/' + priv._id} className="dropdown-item " >{priv.title}</Link>
-                            )
-                    }
+                   
                 </div>
             </div>
             

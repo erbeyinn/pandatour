@@ -9,11 +9,10 @@ const PrivaTours = () => {
      const {t, i18n} = useTranslation()
     return (
       <div>
-    
         <Fade left>
           <div className="container-fluid bg-light">
             <div>
-              <h3 className="text-center">Private Tours</h3>
+              <h3 className="text-center font-weight-bold">Private Tours</h3>
             </div>
             <div className="m-0 ">
               <div className="row">

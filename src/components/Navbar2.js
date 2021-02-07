@@ -8,7 +8,7 @@ import ExcurcionsMenu from '../navbarMenus/ExcurcionsMenu'
 
 import AirportTransferTour from '../navbarMenus/AirportTransferTour'
 import RentHousesMenu from '../navbarMenus/RentHousesMenu'
-function Navbar_2() {
+function Navbar2() {
 
 
     
@@ -74,4 +74,4 @@ function Navbar_2() {
       </div>
     );
 }
-export default Navbar_2
+export default Navbar2

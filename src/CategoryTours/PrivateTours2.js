@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import data from '../data'
 import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom'
 import {useTranslation} from 'react-i18next'
+import Footer from '../components/Footer'
 
 const PrivaTours = () => {
      // eslint-disable-next-line no-unused-vars
      const {t, i18n} = useTranslation()
+      const [loading, setLoading] = useState(true);
+      useEffect(() => {
+        setTimeout(() => setLoading(false), 2000);
+      }, []);
     return (
-      <div>
+      <>
+      {
+        loading === false ?
+        (
+     <div>
     
         <Fade left>
           <div className="container-fluid bg-light">
@@ -57,7 +66,17 @@ const PrivaTours = () => {
             </div>
           </div>
         </Fade>
+        <Footer/>
       </div>
+        )
+        :
+        (
+null
+        )
+      }
+ 
+      </>
+      
     );
 }
 

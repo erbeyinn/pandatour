@@ -11,7 +11,7 @@ const ProductTours = () => {
       <div>
         
         <div>
-          <h3 className="text-center"> Tours</h3>
+          <h3 className="text-center font-weight-bold"> Tours</h3>
         </div>
 
         <div className=" ">

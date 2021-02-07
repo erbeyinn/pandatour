@@ -1,4 +1,7 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
+body{
+    font-style: sans-serif;
+}
 img{
   height: 300px;
   overflow: hidden;

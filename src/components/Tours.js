@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import data from '../data'
 import {Link} from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom'
@@ -8,17 +8,12 @@ import {useTranslation} from 'react-i18next'
 
   const {t} = useTranslation()
 
-     const [loading, setLoading] = useState(true)
-     useEffect(() => {
-            setTimeout(() => setLoading(false),100)
-     }, [])
 
     
     return (
         <>
           
-        {
-            loading === false ? (
+      
               <Zoom>
                 
                 <div className="container-fluied "style={{ height:'100vh'}}>
@@ -54,8 +49,7 @@ import {useTranslation} from 'react-i18next'
              
               </Zoom>
 
-            ) : (<div>Loading...</div>)
-        }
+           
        
         </>
 

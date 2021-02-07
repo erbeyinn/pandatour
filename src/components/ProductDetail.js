@@ -2,20 +2,24 @@
 import React, { useEffect, useState } from "react";
 import data from "../data";
 import Zoom from "react-reveal/Zoom";
-
+import RingLoader from "react-spinners/RingLoader";
+import Navbar3 from "./Navbar3";
+import Navbar2 from "./Navbar2";
 
 function ProductDetail(props) {
   const product = data.products.find((x) => x._id === props.match.params.id);
   const [selectedImg, setSelectedImg] = useState(product.image[0]);
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 100);
-  }, []);
+   const [loading, setLoading] = useState(true);
+   useEffect(() => {
+     setTimeout(() => setLoading(false), 2000);
+   }, []);
 
   return (
     <>
       {loading === false ? (
         <div>
+          <Navbar3 />
+          <Navbar2 />
           <div
             className="container text-break"
             style={{ marginLeft: "0 !important" }}
@@ -221,7 +225,16 @@ function ProductDetail(props) {
           </div>
         </div>
       ) : (
-        <div>Loading...</div>
+        <div className=" row">
+          <div className="col-12">
+            <div
+              className="d-flex justify-content-center align-middle"
+              style={{ marginTop: "300px" }}
+            >
+              <RingLoader color={"orange"} loading={loading} size={60} />
+            </div>
+          </div>
+        </div>
       )}
     </>
   );
