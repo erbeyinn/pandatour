@@ -4,7 +4,6 @@ import Zoom from "react-reveal/Zoom";
 import RingLoader from "react-spinners/RingLoader";
 import Navbar3 from "./Navbar3";
 import Navbar2 from "./Navbar2";
-import Footer from "./Footer";
 
 function PrivatDetail(props) {
   const priv = data.privs.find((x) => x._id === props.match.params.id);

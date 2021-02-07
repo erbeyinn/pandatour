@@ -7,7 +7,7 @@ const RentHousesMenu = () => {
          
                  <div className="dropdown">
                 
-                <Link className="btn"  to="/renthouse">
+                <Link className="btn btn-light"  to="/renthouse">
                     Rent House
                 </Link>
                
