@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Home from "./components/Home";
 import { BrowserRouter, Route } from "react-router-dom";
 import ProductDetail from "./components/ProductDetail";
@@ -23,9 +23,9 @@ function App() {
             <Route path="/priv/:id" component={PrivateDetail} />
             <Route path="/recommend/:id" component={RecommendDetail} />
             <Route path="/transfer" component={AirportTransfer} />
-            <Route path="/priv" component={PrivateTours2} />
-            <Route path="/recommend" component={RecommendedTours2} />
-            <Route path="/product" component={ProductTours2} />
+            <Route path="/priv-tours" component={PrivateTours2} />
+            <Route path="/recommend-tours" component={RecommendedTours2} />
+            <Route path="/product-tours" component={ProductTours2} />
             <Route path="/contact" component={Contact} />
             <Route path="/" exact={true} component={Home} />
           </div>

@@ -3,6 +3,9 @@ import data from "../data";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Footer from "../components/Footer";
+import RingLoader from "react-spinners/RingLoader";
+import Navbar3 from "../components/Navbar3";
+import Navbar2 from "../components/Navbar2";
 
 const ProductTours = () => {
   const { t } = useTranslation();
@@ -14,6 +17,8 @@ const ProductTours = () => {
     <>
       {loading === false ? (
         <div>
+          <Navbar3/>
+          <Navbar2/>
           <div>
             <h3 className="text-center"> Tours</h3>
           </div>
@@ -58,9 +63,20 @@ const ProductTours = () => {
               ))}
             </div>
           </div>
-          <Footer/>
+          <Footer />
         </div>
-      ) : null}
+      ) : (
+        <div className=" row">
+          <div className="col-12">
+            <div
+              className="d-flex justify-content-center align-middle"
+              style={{ marginTop: "300px" }}
+            >
+              <RingLoader color={"orange"} loading={loading} size={60} />
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };

@@ -974,19 +974,19 @@ export default {
   tours: [
     {
       id: 1,
-      href: "product",
+      href: "product-tours",
       title: "Product Tours",
       image: "/images/3.jpg",
     },
     {
       id: 2,
-      href: "priv",
+      href: "priv-tours",
       title: "Private Tours",
       image: "/images/3.jpg",
     },
     {
       id: 3,
-      href: "recommend",
+      href: "recommend-tours",
       title: "Recommended Tours",
       image: "/images/3.jpg",
     },

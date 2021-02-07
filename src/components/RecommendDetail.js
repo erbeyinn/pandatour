@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import RingLoader from "react-spinners/RingLoader";
 import Navbar3 from "./Navbar3";
 import Navbar2 from "./Navbar2";
+import Footer from "./Footer";
 
 function RecommendDetail(props) {
   // eslint-disable-next-line no-unused-vars
@@ -181,6 +182,7 @@ function RecommendDetail(props) {
               </div>
             </div>
           </div>
+          <Footer/>
         </div>
       ) : (
         <div className=" row">
